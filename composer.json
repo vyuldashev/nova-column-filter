@@ -1,0 +1,29 @@
+{
+  "name": "vyuldashev/nova-column-filter",
+  "description": "A Laravel Nova database column filter.",
+  "keywords": [
+    "laravel",
+    "nova"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=7.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Vyuldashev\\NovaColumnFilter\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Vyuldashev\\NovaColumnFilter\\FilterServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
